@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./toDoList.css"
 
 const ToDoList = () => {
   const [tasks, setTasks] = useState([
@@ -26,6 +27,7 @@ const ToDoList = () => {
         <h1>To-Do-List</h1>
         <div>
           <input
+        
             type="text"
             placeholder="Enter a Task...."
             value={newTask}
